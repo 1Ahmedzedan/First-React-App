@@ -34,7 +34,7 @@ export  default function Page({ idx, onClickArrow }) {
   return (
     <>
       <div className="page">
-        <img src="/img/arrowLeft.png" alt="left" onClick={() => { idx === 0 ? onClickArrow(2) : onClickArrow(idx - 1); }} />
+        <img src="img/arrowLeft.png" alt="left" onClick={() => { idx === 0 ? onClickArrow(2) : onClickArrow(idx - 1); }} />
         <div className="content">
           <main>
             {bages[idx]["main"]}
